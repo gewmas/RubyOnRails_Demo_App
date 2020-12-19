@@ -25,6 +25,13 @@ rails server
 rails test
 ```
 
+### Format
+
+```
+rubocop --require rubocop-rails
+rubocop -a # rubocop --auto-correct
+```
+
 ## Reference
 
 - [How to Upgrade Rails app](https://redgreenrepeat.com/2020/07/03/how-to-upgrade-rails-app/)
